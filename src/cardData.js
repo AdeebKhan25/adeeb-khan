@@ -29,4 +29,14 @@ export const cardData = [
     git: "https://github.com/AdeebKhan25/WeatherApp",
     access: "https://weatherapp-adeebkhan25s-projects.vercel.app/",
   },
+  {
+    heading: "Sorting Visualizer",
+    content:
+      "A web app built with Next.js that visualizes various sorting algorithms with animations.",
+    imgSrc: "/ProjectsPics/SV.png",
+    tags: ["NextJS", "TailWind"],
+    isOnline: true,
+    git: "https://github.com/AdeebKhan25/Sorting_Visualizer",
+    access: "https://sorting-visualizer-virid-one.vercel.app/",
+  },
 ];
