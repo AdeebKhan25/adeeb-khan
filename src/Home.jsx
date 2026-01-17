@@ -29,8 +29,7 @@ function Home() {
         <br />
         M.Tech CSE'25 @ MNNIT Allahabad <br />
         B.Tech CSE'22 @ BIET Jhansi <br />
-        Software Engineer focused on Backend, Full-Stack, and Applied AI/ML{" "}
-        <br />
+        Focused on Backend, Full-Stack, and Applied AI/ML <br />
       </div>
     </main>
   );
