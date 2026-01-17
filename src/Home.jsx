@@ -23,13 +23,13 @@ function Home() {
         />
       </div>
       <div className="animate-fadeUp text-center mt-4 text-gray-500 font-pPins">
-        <span className="text-gray-600 text-lg font-semibold mb-1 inline-block">
+        <span className="text-gray-600 text-lg font-semibold tracking-tight mb-1 inline-block">
           Senior Software Engineer @ Marvell Technology
         </span>{" "}
         <br />
         M.Tech CSE'25 @ MNNIT Allahabad <br />
         B.Tech CSE'22 @ BIET Jhansi <br />
-        Focused on Backend, Full-Stack, and Applied AI/ML <br />
+        Backend | Full-Stack | AI/ML <br />
       </div>
     </main>
   );
