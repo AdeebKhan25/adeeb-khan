@@ -44,11 +44,10 @@ function About() {
                 {skillsData.map((item, idx) => (
                   <div
                     key={idx}
-                    /* Changed px-2 to px-0 (or py-2 rounded-xl if you still want a padded hover card) */
                     className="group flex flex-col md:flex-row md:items-start py-2.5 transition-all duration-200 hover:bg-neutral-50 dark:hover:bg-neutral-900/50"
                   >
                     {/* Left Column: Category */}
-                    <div className="md:w-1/3 shrink-0 mb-2 md:mb-0 md:h-6 md:flex md:items-center">
+                    <div className="md:w-1/3 shrink-0 mb-2 md:mb-0 md:h-6 md:flex md:items-center md:pr-6">
                       <span className="text-sm font-semibold text-neutral-800 dark:text-neutral-200 leading-none">
                         {item.category}
                       </span>
@@ -59,7 +58,7 @@ function About() {
                       {item.skills.map((skill, sIdx) => (
                         <span
                           key={sIdx}
-                          className="inline-flex items-center h-6 text-xs font-medium px-2.5 rounded-md bg-neutral-100 text-neutral-700 hover:text-neutral-900 hover:bg-neutral-200 dark:bg-neutral-800/80 dark:text-neutral-300 dark:hover:bg-neutral-800 transition-colors"
+                          className="inline-flex items-center h-6 text-sm font-medium px-2.5 rounded-md bg-neutral-100 text-neutral-700 hover:text-neutral-900 hover:bg-neutral-200 dark:bg-neutral-800/80 dark:text-neutral-300 dark:hover:bg-neutral-800 transition-colors"
                         >
                           {skill}
                         </span>
@@ -78,10 +77,22 @@ function About() {
           href="/Resume_Adeeb_Khan.pdf"
           target="_blank"
           rel="noopener noreferrer"
+          className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-medium tracking-tight bg-neutral-900 text-white hover:bg-neutral-800 dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-100 transition-all duration-200 active:scale-95 shadow-sm"
         >
-          <button className="bg-transparent hover:bg-blue-500 text-blue-700 hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-            Click here for My Resume
-          </button>
+          <span>View Resume</span>
+          <svg
+            className="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={2}
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+            />
+          </svg>
         </a>
       </div>
     </div>
