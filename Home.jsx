@@ -11,7 +11,7 @@ function Home() {
           alt="Profile Pic"
         />
       </div>
-      <div className="animate-fadeUp text-center mt-6 text-gray-500 font-pPins">
+      <div className="animate-fadeUp text-center mt-6 text-gray-500 font-inter">
         Senior Software Engineer @ Marvell Technology <br />
         M.Tech CSE ’25 @ MNNIT Allahabad <br />
         B.Tech CSE ’22 @ BIET Jhansi <br />

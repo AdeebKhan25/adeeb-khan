@@ -17,9 +17,9 @@ export default {
           "100%": { opacity: 1, transform: "translateY(0)" },
         },
       },
-    },
-    fontFamily: {
-      pPins: ["Poppins", "sans-serif"],
+      fontFamily: {
+        inter: ['"Inter"', "-apple-system", "BlinkMacSystemFont", "sans-serif"],
+      },
     },
   },
   plugins: [],

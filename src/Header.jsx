@@ -5,7 +5,7 @@ import { NavLink, Link, useNavigate } from "react-router-dom";
 
 function useMediaQuery(query) {
   const [matches, setMatches] = React.useState(
-    window.matchMedia(query).matches
+    window.matchMedia(query).matches,
   );
 
   useEffect(() => {
@@ -60,7 +60,7 @@ function Header() {
     >
       <a
         href="/"
-        className="font-pPins text-xl font-medium tracking-tighter nav-item headline"
+        className="font-inter text-xl font-medium tracking-tighter nav-item headline"
       >
         Adeeb Khan
       </a>
@@ -82,7 +82,7 @@ function Header() {
         </svg>
       </button>
       {!isMenuOpen && (
-        <div className="hidden md:flex flex flex-col md:flex-row gap-4 font-pPins text-gray-500">
+        <div className="hidden md:flex flex flex-col md:flex-row gap-4 font-inter text-gray-500">
           <NavLink
             to={"/about"}
             className={({ isActive }) =>
@@ -132,7 +132,7 @@ function Header() {
         classNames="dropdown"
         unmountOnExit
       >
-        <div className="absolute top-full right-0 left-0 mt-2 font-pPins tex-gray-500">
+        <div className="absolute top-full right-0 left-0 mt-2 font-inter tex-gray-500">
           <div className="flex flex-col gap-2 p-2">
             <NavLink
               to={"/about"}

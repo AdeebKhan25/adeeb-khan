@@ -1,7 +1,7 @@
 function ExpCard({ position, company, location, time, pic, description }) {
   return (
     <div className="my-4">
-      <div className="flex flex-col md:flex-row items-center justify-center">
+      <div className="flex flex-col md:flex-row items-center justify-center border-t border-b border-gray-300 py-4">
         <div className="md:w-1/6 w-full flex justify-center items-center md:justify-start">
           <img
             src={pic}

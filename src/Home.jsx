@@ -22,14 +22,14 @@ function Home() {
           alt="Profile Pic"
         />
       </div>
-      <div className="animate-fadeUp text-center mt-4 text-gray-500 font-pPins">
+      <div className="animate-fadeUp text-center mt-4 text-gray-500 font-inter">
         <span className="text-gray-600 text-lg font-semibold tracking-tight mb-1 inline-block">
           Senior Software Engineer @ Marvell Technology
         </span>{" "}
         <br />
         M.Tech CSE'25 @ MNNIT Allahabad <br />
         B.Tech CSE'22 @ BIET Jhansi <br />
-        Backend | Full-Stack | AI/ML <br />
+        Systems | Backend | AI/ML <br />
       </div>
     </main>
   );
