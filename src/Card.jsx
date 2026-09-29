@@ -14,11 +14,11 @@ const Card = ({ heading, content, imgSrc, tags, isOnline, git, access }) => {
         <p className="mb-2 font-medium text-2xl">{heading}</p>
         <p>{content}</p>
       </div>
-      <div className="mt-auto px-4 py-2 text-xs flex flex-wrap">
+      <div className="mt-auto px-4 pb-2 text-xs flex flex-wrap">
         {tags.map((tag, index) => (
           <span
             key={index}
-            className="mr-2 bg-neutral-100 text-black rounded-lg p-2"
+            className="mr-2 mt-2 bg-neutral-100 text-black rounded-lg p-2"
           >
             {tag}
           </span>
